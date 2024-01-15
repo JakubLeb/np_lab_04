@@ -30,7 +30,7 @@ jobs:
 
       - name: Instalacja flake8 i unittest
         run: |
-          pip install flake8 unittest-tools
+          pip install flake8 unittest
 
       - name: Wyświetlanie wersji pythona
         run: python --version
